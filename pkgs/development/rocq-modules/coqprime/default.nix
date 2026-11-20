@@ -16,7 +16,7 @@ mkCoqDerivation {
     lib.switch coq.coq-version [
       {
         case = isEq "9.2";
-        out = "9.2u";
+        out = "9.2m";
       }
       {
         case = range "8.20" "9.1";
@@ -44,7 +44,7 @@ mkCoqDerivation {
       }
     ] null;
 
-  release."9.2u".hash = "sha256-qV38lKk72nM3YzHVDkdZF0KhwKxwCRhvpk2XOE1Ufyo=";
+  release."9.2m".hash = "sha256-0e3b66496bb11c74b43384478f2527ac60df4585f65c6a8179956628d0b7aa3a=";
   release."9.2".hash = "sha256-+OcjTTNxNrmzLXMi9Rp3HuT086d3dF+0YgBXou2/DRQ=";
   release."8.20".hash = "sha256-bwQPgxCVm6iFRJjNplPtUJqRfr6vXPaWs7OxLNnMjs8=";
   release."8.18".hash = "sha256-KObBEYerWhIStmq90G3vs9K5LUEOfB2SPxirwLiWQ6E=";
